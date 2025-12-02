@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired, Email, Length, Regexp
 from flask_bcrypt import Bcrypt
 from sqlalchemy import text
 
-#Added contribution by 22i-1678 Fatima Farooq
+#"Added contribution by 22i-1678 Fatima Farooq"
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -148,6 +148,7 @@ def hash_password(pwd):
 # -------------------------------------------------------------------
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
 
